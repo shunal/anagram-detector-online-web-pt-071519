@@ -12,6 +12,7 @@ class Anagram
       split_word = word.split("")
     if split_word.sort == @word.sort
       @word
+      binding.pry
     end
   end
  end
