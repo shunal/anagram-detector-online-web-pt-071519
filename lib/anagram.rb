@@ -12,9 +12,7 @@ class Anagram
       split_word = word.split('')
       split_anogram = @word.split('')
     if split_word.sort == split_anogram.sort
-      
       @word
-      
     end
   end
  end
