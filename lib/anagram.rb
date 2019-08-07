@@ -11,7 +11,7 @@ class Anagram
     words.each do |word|
       split_word = word.split('')
       split_anogram = @word.split('')
-    split_word.sort == split_anogram.sort
+    if split_word.sort == split_anogram.sort
       
       @word
       
